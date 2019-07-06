@@ -81,7 +81,6 @@ public class ShuntingYard {
 						break;
 					case '^':
 						int a = (int)Math.pow(Op2, Op1);    
-						System.out.println(a + "  asdasda");
 						listaOp.push(a);
 						break;
 					default:
