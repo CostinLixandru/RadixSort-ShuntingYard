@@ -80,7 +80,7 @@ public class ShuntingYard {
 						listaOp.push(Op2/Op1);
 						break;
 					case '^':
-						int a = (int)Math.pow(Op2, Op1);          //     ??????
+						int a = (int)Math.pow(Op2, Op1);    
 						System.out.println(a + "  asdasda");
 						listaOp.push(a);
 						break;
